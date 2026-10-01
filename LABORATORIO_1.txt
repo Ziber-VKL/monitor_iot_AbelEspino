@@ -1,0 +1,23 @@
+LABORATORIO 1 - ALERTAS SONORAS
+
+Ejecucion:
+  python main.py
+
+Modo consola:
+  python main.py --consola
+
+Pruebas unitarias:
+  python -m unittest discover -s pruebas -v
+
+Para trabajar en el salon sin sonido:
+  Cambiar MODO_SILENCIOSO = True en config.py.
+
+Archivos agregados:
+  alertas/__init__.py
+  alertas/cola.py
+  alertas/reproductor.py
+  eventos/conexion.py
+  pruebas/test_laboratorio.py
+  sonidos/*.wav
+
+Los bloques agregados o modificados se identifican con # LABORATORIO.
